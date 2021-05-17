@@ -1,0 +1,95 @@
+.mainpoint{background-color: #e28f83;
+position: relative;
+text-align: center;
+padding-top: 200px;
+animation:color 20s infinite;}
+@keyframes color {
+  0%{background-color:#eec4c4;}
+  20%{background-color:#ff75a0;}
+  40%{background-color:#eec4c4; }
+  60%{background-color:#f29191; }
+  80%{background-color:#f4a9a8;}
+}
+.top{position: absolute;
+left: 100px;}
+.middle{position: absolute;
+right: 100px;
+top:100px;}
+h1{margin: 0;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 50px;
+color: #393e46;}
+p{font-family: 'Oswald', sans-serif;
+font-size: 30px;}
+body{margin: 0;}
+.mountain{
+  height: 500px;
+}
+.me{border-radius:50%;
+height: 200px;}
+.first{text-align: center;}
+h2{color:#e28f83;
+font-weight: 200;}
+hr{ border-style: none;
+  border-top: dotted;
+border-width: 5px;
+width:5%;
+border-color:#393e46; }
+.skill{border-radius: 50%;
+height:200px;}
+.draw{border-radius: 50%;
+height:200px;}
+.sec{text-align: center;
+position: relative;
+line-height: 2;
+font-weight: 200;
+margin-top: 100px;}
+.please{position: absolute;
+left:500px;
+display: block;}
+
+.yo{text-align: center;
+position:relative;
+top:300px;}
+.h3{padding-top:200px;
+padding-bottom: 100px;}
+
+.hashh{margin-top: 100px;
+  background-color:#e28f83;
+height:250px;
+line-height: 3;
+}
+h4{padding-top: 50px;}
+.first{margin-top:100px;
+  margin-bottom: 100px;
+  line-height: 2;
+}
+.btn {
+  background: #e28f83;
+  background-image: -webkit-linear-gradient(top, #e28f83, #c256cc);
+  background-image: -moz-linear-gradient(top, #e28f83, #c256cc);
+  background-image: -ms-linear-gradient(top, #e28f83, #c256cc);
+  background-image: -o-linear-gradient(top, #e28f83, #c256cc);
+  background-image: linear-gradient(to bottom, #e28f83, #c256cc);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fc3caf;
+  background-image: -webkit-linear-gradient(top, #fc3caf, #3498db);
+  background-image: -moz-linear-gradient(top, #fc3caf, #3498db);
+  background-image: -ms-linear-gradient(top, #fc3caf, #3498db);
+  background-image: -o-linear-gradient(top, #fc3caf, #3498db);
+  background-image: linear-gradient(to bottom, #fc3caf, #3498db);
+  text-decoration: none;
+}
+.btmimg{
+  padding-top: 50px;
+}
